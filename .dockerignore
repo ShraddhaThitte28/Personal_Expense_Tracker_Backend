@@ -1,0 +1,28 @@
+# Local environment and secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local test and verification scripts
+tests/
+_day*_verify.py
+
+# Git and OS metadata
+.git/
+.gitignore
+.DS_Store
+*.log
+
